@@ -1,0 +1,17 @@
+{
+    "builds": [
+      {
+        "src": "package.json",
+        "use": "@vercel/next"
+      }
+    ],
+    "env": {
+      "DB_USER": "haru_ojbz_user",
+      "DB_PASSWORD": "RcmtHcjgxioM6nCfcKYiJ6TqkbC9Ie6G",
+      "DB_HOST": "dpg-csslpmbtq21c73a2i5rg-a.oregon-postgres.render.com",
+      "DB_PORT": "5432",
+      "DB_DATABASE": "haru_ojbz",
+      "DB_SSL": "true"
+    }
+  }
+  
