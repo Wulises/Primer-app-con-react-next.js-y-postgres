@@ -1,8 +1,8 @@
-// src/app/page.js
 import React from 'react';
 
 async function fetchData() {
-  const apiUrl = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:3000/api/test';
+  // Usamos la variable de entorno NEXT_PUBLIC_API_URL para la URL de la API
+  const apiUrl = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:3000/api/test'; // Cambiar si es necesario
   const res = await fetch(apiUrl);
   
   if (!res.ok) {
