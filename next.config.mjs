@@ -1,4 +1,9 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
-
-export default nextConfig;
+  const nextConfig = {
+    experimental: {
+      appDir: true, // Habilita la carpeta 'app/' experimental
+    },
+  };
+  
+  export default nextConfig;
+  
