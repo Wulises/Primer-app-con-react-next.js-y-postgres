@@ -4,7 +4,7 @@ async function fetchData() {
   // Usamos la variable de entorno NEXT_PUBLIC_API_URL para la URL de la API
   const apiUrl = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:3000/api/test'; // Cambiar si es necesario
   const res = await fetch(apiUrl);
-  
+  //ya por favor haur dame fuerzas
   if (!res.ok) {
     throw new Error('Error al obtener los datos');
   }
